@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "matchmaking": "^0.4.32",
+    "node-fetch": "^2.6.0",
+    "popups": "^1.1.3",
+    "prerender-node": "^3.2.5",
+    "socket.io": "^2.2.0"
+  }
+}
